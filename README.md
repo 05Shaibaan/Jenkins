@@ -43,7 +43,7 @@ The new jobs have workspace cleanup, timestamps, a ten-minute timeout, ten-build
 
 ## Owner-only authentication and email
 
-Local Git author settings identify Syed Shaibaan Hussain (`86466077+05Shaibaan@users.noreply.github.com`). Authentication was verified as **05Shaibaan**, with push permission, before writing. A repository-local credential helper isolates the owner's token in ignored `.lab/`; no global Git settings or existing Git credentials are overwritten, and EmaadMirza is not added as a collaborator.
+Local Git author settings identify Syed Shaibaan Hussain (`86466077+05Shaibaan@users.noreply.github.com`). Authentication was verified as **05Shaibaan**, with push permission, before writing. A repository-local credential helper isolates the owner's token in ignored `.lab/`; no global Git settings or existing Git credentials are overwritten, and no collaborator is added.
 
 For independent Gmail notifications, run `python3 scripts/configure-owner-email.py` locally and enter the owner's Gmail address and App Password at the hidden prompt. The new encrypted credential ID is `shaibaan05-owner-smtp`. A job-filtered [notification listener](jenkins/owner-notifications.groovy) sends failure/recovery messages using only that ID; it never reads or changes the shared Mailer account. It must be registered again with the provisioning script after a Jenkins restart. This isolates accounts without adding plugins or restarting the shared instance.
 

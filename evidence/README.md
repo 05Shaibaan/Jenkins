@@ -1,6 +1,6 @@
 # Evidence register · 05Shaibaan
 
-All results below were freshly executed for this repository and its three `shaibaan05-` jobs. No screenshot, test result or build log from EmaadMirza's jobs is reused. Website and native-terminal screenshots are together in [screenshots/](screenshots/).
+All results below were freshly executed for this repository and its three `shaibaan05-` jobs. No screenshot, test result or build log from another account's jobs is reused. Website and native-terminal screenshots are together in [screenshots/](screenshots/).
 
 ## Build / break / recover
 
