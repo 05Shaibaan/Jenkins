@@ -1,0 +1,72 @@
+<project>
+  <actions />
+  <description>05Shaibaan | Stage 3: Release rehearsal. Parameterized simulation only; successful calculator builds use defaults.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>10</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>10</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>TARGET_ENV</name>
+          <description>Release slot</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>dev</string>
+              <string>staging</string>
+              <string>prod</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>RUN_SMOKE_TESTS</name>
+          <description>Exercise simulated endpoint checks</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>RELEASE_VERSION</name>
+          <description>Calculator release identifier</description>
+          <defaultValue>1.1.0</defaultValue>
+          <trim>true</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM" />
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers />
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/sh
+set -eu
+case "$TARGET_ENV" in dev|staging|prod) ;; *) echo 'Unsupported target environment' &gt;&amp;2; exit 2;; esac
+printf '\n[05Shaibaan release simulation]\n'
+printf 'Release: %s | Target: %s | Smoke checks: %s\n' "$RELEASE_VERSION" "$TARGET_ENV" "$RUN_SMOKE_TESTS"
+if [ "$TARGET_ENV" = prod ]; then echo 'Production safety banner: simulation only.'; fi
+echo "Preparing the $TARGET_ENV release slot (no remote changes)..."
+sleep 1
+echo "Release $RELEASE_VERSION staged in $TARGET_ENV (simulation)."
+if [ "$RUN_SMOKE_TESTS" = true ]; then
+  echo 'Smoke checks: signed addition and subtraction endpoints (simulated).'
+  sleep 1
+  echo 'Smoke checks: PASS (simulation).'
+else
+  echo 'Smoke checks: skipped by parameter.'
+fi
+echo 'Release simulation completed.'
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers />
+  <buildWrappers />
+</project>

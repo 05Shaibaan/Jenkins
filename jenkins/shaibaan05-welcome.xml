@@ -1,0 +1,36 @@
+<project>
+  <actions />
+  <description>05Shaibaan | Stage 1: Welcome and execution identity. Independent runs; shared tools only.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>10</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>10</artifactNumToKeep>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM" />
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers />
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/sh
+set -eu
+echo 'Hello, 05Shaibaan! Your independent Jenkins lab is running.'
+printf 'Job: %s | Run: #%s\n' "$JOB_NAME" "$BUILD_NUMBER"
+printf 'Build URL: %s\nWorkspace: %s\n' "$BUILD_URL" "$WORKSPACE"
+printf 'Ubuntu user: '; whoami
+date --iso-8601=seconds
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers />
+  <buildWrappers />
+</project>

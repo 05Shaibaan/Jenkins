@@ -1,0 +1,7 @@
+.lab/
+target/
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem
