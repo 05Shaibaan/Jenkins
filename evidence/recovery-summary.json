@@ -1,0 +1,11 @@
+{
+  "account": "05Shaibaan",
+  "ciBuild": 4,
+  "result": "SUCCESS",
+  "passedTests": 2,
+  "failures": 0,
+  "archivedJar": "shaibaan-calculator-1.1.0.jar",
+  "upstreamTriggeredRelease": 5,
+  "releaseResult": "SUCCESS",
+  "ownerRecoveryNotification": "SMTP_ACCEPTED"
+}

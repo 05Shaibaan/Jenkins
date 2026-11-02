@@ -1,0 +1,13 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/shaibaan05-release-sim
+[shaibaan05-release-sim] $ /bin/sh /tmp/jenkins14352064392530287804.sh
+
+[05Shaibaan release simulation]
+Release: 1.1.0 | Target: prod | Smoke checks: false
+Production safety banner: simulation only.
+Preparing the prod release slot (no remote changes)...
+Release 1.1.0 staged in prod (simulation).
+Smoke checks: skipped by parameter.
+Release simulation completed.
+Finished: SUCCESS

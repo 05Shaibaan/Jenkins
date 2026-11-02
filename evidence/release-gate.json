@@ -1,0 +1,14 @@
+{
+  "account": "05Shaibaan",
+  "captured": "2026-11-02T23:27:01.392545+05:30",
+  "failedJob": "shaibaan05-calculator-ci",
+  "failedBuild": 3,
+  "result": "FAILURE",
+  "totalTests": 2,
+  "failedTests": 1,
+  "archivedArtifacts": [],
+  "releaseBuildBeforeFailure": 4,
+  "releaseBuildAfterFailure": 4,
+  "deploymentTriggered": false,
+  "ownerFailureNotification": "SMTP_ACCEPTED"
+}

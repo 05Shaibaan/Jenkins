@@ -1,0 +1,148 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 2,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+            "branch": [
+              {
+                "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+            "branch": [
+              {
+                "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+        "branch": [
+          {
+            "SHA1": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/05Shaibaan/Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "shaibaan05-calculator-ci.xml",
+      "fileName": "shaibaan05-calculator-ci.xml",
+      "relativePath": "jenkins/shaibaan05-calculator-ci.xml"
+    },
+    {
+      "displayPath": "shaibaan05-release-sim.xml",
+      "fileName": "shaibaan05-release-sim.xml",
+      "relativePath": "jenkins/shaibaan05-release-sim.xml"
+    },
+    {
+      "displayPath": "shaibaan05-welcome.xml",
+      "fileName": "shaibaan05-welcome.xml",
+      "relativePath": "jenkins/shaibaan05-welcome.xml"
+    },
+    {
+      "displayPath": "shaibaan-calculator-1.1.0.jar",
+      "fileName": "shaibaan-calculator-1.1.0.jar",
+      "relativePath": "target/shaibaan-calculator-1.1.0.jar"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#2",
+  "duration": 7246,
+  "estimatedDuration": 7038,
+  "executor": null,
+  "fullDisplayName": "shaibaan05-calculator-ci #2",
+  "id": "2",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 2,
+  "queueId": 25,
+  "result": "SUCCESS",
+  "timestamp": 1793641868096,
+  "url": "http://localhost:8080/job/shaibaan05-calculator-ci/2/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/main/java/dev/shaibaan/calculator/SignedCalculator.java",
+          "jenkins/shaibaan05-calculator-ci.xml"
+        ],
+        "commitId": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+        "timestamp": 1793641836000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/86466077+05shaibaan",
+          "fullName": "86466077+05Shaibaan"
+        },
+        "authorEmail": "86466077+05Shaibaan@users.noreply.github.com",
+        "comment": "Describe signed arithmetic output for automatic SCM verification\n",
+        "date": "2026-11-02 23:20:36 +0530",
+        "id": "1c8e2a9ad4b3cf1a06ab8f8b5ec36255484fab30",
+        "msg": "Describe signed arithmetic output for automatic SCM verification",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/main/java/dev/shaibaan/calculator/SignedCalculator.java"
+          },
+          {
+            "editType": "edit",
+            "file": "jenkins/shaibaan05-calculator-ci.xml"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/86466077+05shaibaan",
+      "fullName": "86466077+05Shaibaan"
+    }
+  ]
+}

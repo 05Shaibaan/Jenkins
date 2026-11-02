@@ -1,0 +1,11 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/shaibaan05-welcome
+[shaibaan05-welcome] $ /bin/sh /tmp/jenkins7919257478209595440.sh
+Hello, 05Shaibaan! Your independent Jenkins lab is running.
+Job: shaibaan05-welcome | Run: #1
+Build URL: http://localhost:8080/job/shaibaan05-welcome/1/
+Workspace: /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/shaibaan05-welcome
+Ubuntu user: mirza
+2026-11-02T23:16:33+05:30
+Finished: SUCCESS

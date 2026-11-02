@@ -1,0 +1,139 @@
+{
+  "account": "05Shaibaan",
+  "started": "2026-11-02T23:29:57.166855+05:30",
+  "screenshots": [
+    {
+      "path": "evidence/screenshots/T01-runtime.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "107e66b0e2fa7afc2cfea2b3d22ed336aa581331c2e8396ee661be67281128c4",
+      "sha256": "f4a6bf454c23b9b3ac06a38a2bb2558c6a9cc0232202bbd5fd9480ad967540ed"
+    },
+    {
+      "path": "evidence/screenshots/T02-welcome.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "b7d95235ef66ca52a29864ce6b6a754d8f2e55f214e06132ed3fdbcc1aa0d26c",
+      "sha256": "f1f0fd1919f2959177c3804dad83d4648cab6589af4b731a2e860332b75794d1"
+    },
+    {
+      "path": "evidence/screenshots/T03-fresh-maven.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "1a74eab975cba83ee64f17ce29ecb5364867e0342d29fde12ee3c8fff9ee4b54",
+      "sha256": "2c0f7fe04b9a615c5d773aaea9fed54a3e5798c98bc77d0a999fd65e8bf07484"
+    },
+    {
+      "path": "evidence/screenshots/T04-jar-execution.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "6521e33d4a9004c5c1aed013f6f975579fc9b3bdb16e6e974cb23515a210bed3",
+      "sha256": "9e1eff9c4f664e8e2ab702f59363c03f0fe8ae8966a769c0ce6b3247816b7c77"
+    },
+    {
+      "path": "evidence/screenshots/T05-scm-detection.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "678ed20fe8c973e4c9e967bd6a91a9ba95129d60f03fb96a13a4990ba7919926",
+      "sha256": "ca39a4d964689c62fefcd241dbef43ad01b705f55858f01b1381d55bf4caf580"
+    },
+    {
+      "path": "evidence/screenshots/T06-failure.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "9291d32a988005d590c32c7aa5d1cd9fb9ace2340bcf836540f11936c478983c",
+      "sha256": "908550d8f072924bdac9afad637e8015303bd0e114a02f499fdd01fa37df6007"
+    },
+    {
+      "path": "evidence/screenshots/T07-recovery.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "3f23375104c6a78c8c100731a7db6427e5fb951c9332d54e1928b16098ef9bac",
+      "sha256": "152783b17facfa01c96835c266cb829c881146d057080839ac9d08f44ec11f3e"
+    },
+    {
+      "path": "evidence/screenshots/T08-release.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "6817a6f818b1d5968bd34f90d92daa1b3455f260bab60f843d165e046bf4f67c",
+      "sha256": "a9e5028a9aa265a0fc4df4bd9650766cff0fc9f5c0df97cd1376ca064940408c"
+    },
+    {
+      "path": "evidence/screenshots/T09-release-gate.png",
+      "nativeCapture": "Ubuntu screenshot portal / real GNOME Terminal",
+      "crop": [
+        2560,
+        0,
+        5431,
+        1615
+      ],
+      "operation": "lossless crop only; no rendered or substituted text",
+      "rawPublished": false,
+      "rawSha256": "90a2d06090a56ff18d15c5e331eccfbab1452787af0fbde32cbb748c1fc6bb46",
+      "sha256": "0e1c2aa7bca90631348d2ee6d54992b867be87dbeac2a2ddbf51cf0c1ed1b7af"
+    }
+  ],
+  "freshMaven": {
+    "transcript": "evidence/local-build-20261102T232957.txt",
+    "tests": 2,
+    "failures": 0,
+    "offline": true,
+    "newExecution": true
+  }
+}

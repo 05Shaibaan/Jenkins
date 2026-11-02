@@ -1,0 +1,18 @@
+{
+  "owner": "05Shaibaan",
+  "credentialId": "shaibaan05-owner-smtp",
+  "separateOwnerSmtpTestAccepted": true,
+  "sharedMailerSecretsUsed": false,
+  "sharedMailerSettingsChanged": false,
+  "events": [
+    {
+      "build": 3,
+      "event": "2026-11-02T17:56:19.740046739Z FAILURE SMTP_ACCEPTED"
+    },
+    {
+      "build": 4,
+      "event": "2026-11-02T17:58:19.386565341Z RECOVERY SMTP_ACCEPTED"
+    }
+  ],
+  "inboxReceiptIndependentlyVerified": false
+}

@@ -1,0 +1,13 @@
+Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/shaibaan05-release-sim
+[shaibaan05-release-sim] $ /bin/sh /tmp/jenkins10945285213916840526.sh
+
+[05Shaibaan release simulation]
+Release: 1.1.0-rc1 | Target: staging | Smoke checks: true
+Preparing the staging release slot (no remote changes)...
+Release 1.1.0-rc1 staged in staging (simulation).
+Smoke checks: signed addition and subtraction endpoints (simulated).
+Smoke checks: PASS (simulation).
+Release simulation completed.
+Finished: SUCCESS

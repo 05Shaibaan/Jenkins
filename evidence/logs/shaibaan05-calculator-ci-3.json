@@ -1,0 +1,121 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ]
+    },
+    {},
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 3,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+            "branch": [
+              {
+                "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+            "branch": [
+              {
+                "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+        "branch": [
+          {
+            "SHA1": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/05Shaibaan/Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 1,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#3",
+  "duration": 6874,
+  "estimatedDuration": 7038,
+  "executor": null,
+  "fullDisplayName": "shaibaan05-calculator-ci #3",
+  "id": "3",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 3,
+  "queueId": 27,
+  "result": "FAILURE",
+  "timestamp": 1793642168125,
+  "url": "http://localhost:8080/job/shaibaan05-calculator-ci/3/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [
+      {
+        "_class": "hudson.plugins.git.GitChangeSet",
+        "affectedPaths": [
+          "src/test/java/dev/shaibaan/calculator/SignedCalculatorTest.java"
+        ],
+        "commitId": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+        "timestamp": 1793642146000,
+        "author": {
+          "absoluteUrl": "http://localhost:8080/user/86466077+05shaibaan",
+          "fullName": "86466077+05Shaibaan"
+        },
+        "authorEmail": "86466077+05Shaibaan@users.noreply.github.com",
+        "comment": "Break subtraction sign deliberately to test notification and release gate\n",
+        "date": "2026-11-02 23:25:46 +0530",
+        "id": "fc25212aa1309cfc6eaf42302334cf344c0646ff",
+        "msg": "Break subtraction sign deliberately to test notification and release gate",
+        "paths": [
+          {
+            "editType": "edit",
+            "file": "src/test/java/dev/shaibaan/calculator/SignedCalculatorTest.java"
+          }
+        ]
+      }
+    ],
+    "kind": "git"
+  },
+  "culprits": [
+    {
+      "absoluteUrl": "http://localhost:8080/user/86466077+05shaibaan",
+      "fullName": "86466077+05Shaibaan"
+    }
+  ]
+}

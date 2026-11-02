@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """Enter the 05Shaibaan owner's Gmail App Password locally; no shared email secrets used."""
 import getpass
-import importlib.util
 import json
 from pathlib import Path
+import jenkins_admin as admin
 
 root=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('admin',root/'.lab/admin-api.py')
-admin=importlib.util.module_from_spec(spec);spec.loader.exec_module(admin)
 address=input('05Shaibaan owner Gmail address: ').strip()
 password=getpass.getpass('This owner\'s Gmail App Password (hidden): ').replace(' ','')
 if not password or '@' not in address:raise SystemExit('Missing address/app password; nothing saved.')

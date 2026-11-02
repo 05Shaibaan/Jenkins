@@ -1,0 +1,61 @@
+{
+  "_class": "hudson.tasks.junit.TestResult",
+  "testActions": [],
+  "duration": 0.068,
+  "empty": false,
+  "failCount": 0,
+  "passCount": 2,
+  "skipCount": 0,
+  "suites": [
+    {
+      "cases": [
+        {
+          "testActions": [],
+          "age": 0,
+          "className": "dev.shaibaan.calculator.SignedCalculatorTest",
+          "duration": 0.031,
+          "errorDetails": null,
+          "errorStackTrace": null,
+          "failedSince": 0,
+          "flakyFailures": [],
+          "name": "subtractsAcrossZero",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "PASSED",
+          "stderr": null,
+          "stdout": null
+        },
+        {
+          "testActions": [],
+          "age": 0,
+          "className": "dev.shaibaan.calculator.SignedCalculatorTest",
+          "duration": 0.004,
+          "errorDetails": null,
+          "errorStackTrace": null,
+          "failedSince": 0,
+          "flakyFailures": [],
+          "name": "addsPositiveAndNegativeOperands",
+          "properties": {},
+          "rerunFailures": [],
+          "skipped": false,
+          "skippedMessage": null,
+          "status": "PASSED",
+          "stderr": null,
+          "stdout": null
+        }
+      ],
+      "duration": 0.068,
+      "enclosingBlockNames": [],
+      "enclosingBlocks": [],
+      "id": null,
+      "name": "dev.shaibaan.calculator.SignedCalculatorTest",
+      "nodeId": null,
+      "properties": {},
+      "stderr": null,
+      "stdout": null,
+      "timestamp": null
+    }
+  ]
+}

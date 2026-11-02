@@ -1,0 +1,64 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.ParametersAction",
+      "parameters": [
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "TARGET_ENV",
+          "value": "prod"
+        },
+        {
+          "_class": "hudson.model.BooleanParameterValue",
+          "name": "RUN_SMOKE_TESTS",
+          "value": false
+        },
+        {
+          "_class": "hudson.model.StringParameterValue",
+          "name": "RELEASE_VERSION",
+          "value": "1.1.0"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ]
+    },
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#3",
+  "duration": 1032,
+  "estimatedDuration": 1701,
+  "executor": null,
+  "fullDisplayName": "shaibaan05-release-sim #3",
+  "id": "3",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 3,
+  "queueId": 24,
+  "result": "SUCCESS",
+  "timestamp": 1793641848091,
+  "url": "http://localhost:8080/job/shaibaan05-release-sim/3/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.scm.EmptyChangeLogSet",
+    "items": [],
+    "kind": null
+  },
+  "culprits": []
+}

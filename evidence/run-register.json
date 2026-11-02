@@ -1,0 +1,185 @@
+{
+  "captured": "2026-11-02T23:29:30.355150+05:30",
+  "runs": [
+    {
+      "job": "shaibaan05-welcome",
+      "build": 2,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-welcome",
+      "build": 1,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-calculator-ci",
+      "build": 4,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ],
+      "artifacts": [
+        "shaibaan05-calculator-ci.xml",
+        "shaibaan05-release-sim.xml",
+        "shaibaan05-welcome.xml",
+        "shaibaan-calculator-1.1.0.jar"
+      ],
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "ownerNotification": "2026-11-02T17:58:19.386565341Z RECOVERY SMTP_ACCEPTED"
+    },
+    {
+      "job": "shaibaan05-calculator-ci",
+      "build": 3,
+      "result": "FAILURE",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ],
+      "artifacts": [],
+      "passed": 1,
+      "failed": 1,
+      "skipped": 0,
+      "ownerNotification": "2026-11-02T17:56:19.740046739Z FAILURE SMTP_ACCEPTED"
+    },
+    {
+      "job": "shaibaan05-calculator-ci",
+      "build": 2,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.triggers.SCMTrigger$SCMTriggerCause",
+          "shortDescription": "Started by an SCM change"
+        }
+      ],
+      "artifacts": [
+        "shaibaan05-calculator-ci.xml",
+        "shaibaan05-release-sim.xml",
+        "shaibaan05-welcome.xml",
+        "shaibaan-calculator-1.1.0.jar"
+      ],
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "job": "shaibaan05-calculator-ci",
+      "build": 1,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ],
+      "artifacts": [
+        "shaibaan05-calculator-ci.xml",
+        "shaibaan05-release-sim.xml",
+        "shaibaan05-welcome.xml",
+        "shaibaan-calculator-1.1.0.jar"
+      ],
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "job": "shaibaan05-release-sim",
+      "build": 5,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UpstreamCause",
+          "shortDescription": "Started by upstream project \"shaibaan05-calculator-ci\" build number 4",
+          "upstreamBuild": 4,
+          "upstreamProject": "shaibaan05-calculator-ci",
+          "upstreamUrl": "job/shaibaan05-calculator-ci/"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-release-sim",
+      "build": 4,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UpstreamCause",
+          "shortDescription": "Started by upstream project \"shaibaan05-calculator-ci\" build number 2",
+          "upstreamBuild": 2,
+          "upstreamProject": "shaibaan05-calculator-ci",
+          "upstreamUrl": "job/shaibaan05-calculator-ci/"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-release-sim",
+      "build": 3,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-release-sim",
+      "build": 2,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UpstreamCause",
+          "shortDescription": "Started by upstream project \"shaibaan05-calculator-ci\" build number 1",
+          "upstreamBuild": 1,
+          "upstreamProject": "shaibaan05-calculator-ci",
+          "upstreamUrl": "job/shaibaan05-calculator-ci/"
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "job": "shaibaan05-release-sim",
+      "build": 1,
+      "result": "SUCCESS",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ],
+      "artifacts": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Started by upstream project "shaibaan05-calculator-ci" build number 1
+originally caused by:
+ Started by user lab-admin
+Running as SYSTEM
+Building in workspace /home/mirza/jenkins-assignment/.lab/jenkins-home/workspace/shaibaan05-release-sim
+[shaibaan05-release-sim] $ /bin/sh /tmp/jenkins16411348783918057634.sh
+
+[05Shaibaan release simulation]
+Release: 1.1.0 | Target: dev | Smoke checks: true
+Preparing the dev release slot (no remote changes)...
+Release 1.1.0 staged in dev (simulation).
+Smoke checks: signed addition and subtraction endpoints (simulated).
+Smoke checks: PASS (simulation).
+Release simulation completed.
+Finished: SUCCESS

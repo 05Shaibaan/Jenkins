@@ -1,0 +1,115 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user lab-admin",
+          "userId": "lab-admin",
+          "userName": "lab-admin"
+        }
+      ]
+    },
+    {
+      "_class": "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName": {
+        "refs/remotes/origin/main": {
+          "_class": "hudson.plugins.git.util.Build",
+          "buildNumber": 1,
+          "buildResult": null,
+          "marked": {
+            "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+            "branch": [
+              {
+                "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          },
+          "revision": {
+            "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+            "branch": [
+              {
+                "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+                "name": "refs/remotes/origin/main"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision": {
+        "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+        "branch": [
+          {
+            "SHA1": "1085aa244c225aceb029a95caba16ae7fa6d4ca8",
+            "name": "refs/remotes/origin/main"
+          }
+        ]
+      },
+      "remoteUrls": [
+        "https://github.com/05Shaibaan/Jenkins.git"
+      ],
+      "scmName": ""
+    },
+    {},
+    {
+      "_class": "hudson.tasks.junit.TestResultAction",
+      "failCount": 0,
+      "skipCount": 0,
+      "totalCount": 2,
+      "urlName": "testReport"
+    },
+    {},
+    {},
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [
+    {
+      "displayPath": "shaibaan05-calculator-ci.xml",
+      "fileName": "shaibaan05-calculator-ci.xml",
+      "relativePath": "jenkins/shaibaan05-calculator-ci.xml"
+    },
+    {
+      "displayPath": "shaibaan05-release-sim.xml",
+      "fileName": "shaibaan05-release-sim.xml",
+      "relativePath": "jenkins/shaibaan05-release-sim.xml"
+    },
+    {
+      "displayPath": "shaibaan05-welcome.xml",
+      "fileName": "shaibaan05-welcome.xml",
+      "relativePath": "jenkins/shaibaan05-welcome.xml"
+    },
+    {
+      "displayPath": "shaibaan-calculator-1.1.0.jar",
+      "fileName": "shaibaan-calculator-1.1.0.jar",
+      "relativePath": "target/shaibaan-calculator-1.1.0.jar"
+    }
+  ],
+  "building": false,
+  "description": null,
+  "displayName": "#1",
+  "duration": 6334,
+  "estimatedDuration": 7038,
+  "executor": null,
+  "fullDisplayName": "shaibaan05-calculator-ci #1",
+  "id": "1",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 1,
+  "queueId": 22,
+  "result": "SUCCESS",
+  "timestamp": 1793641783083,
+  "url": "http://localhost:8080/job/shaibaan05-calculator-ci/1/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.plugins.git.GitChangeSetList",
+    "items": [],
+    "kind": "git"
+  },
+  "culprits": []
+}
