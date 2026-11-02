@@ -7,7 +7,7 @@ public final class SignedCalculator {
 
     public static void main(String[] args) {
         SignedCalculator calculator = new SignedCalculator();
-        System.out.println("[05Shaibaan | Signed Arithmetic | release 1.1.0]");
+        System.out.println("[05Shaibaan CI VERIFIED | Signed Arithmetic | release 1.1.0]");
         System.out.println("12 + (-7) = " + calculator.add(12, -7));
         System.out.println("-3 - 8 = " + calculator.subtract(-3, 8));
     }
