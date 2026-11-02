@@ -11,6 +11,6 @@ class SignedCalculatorTest {
     }
 
     @Test void subtractsAcrossZero() {
-        assertEquals(11, calculator.subtract(-3, 8));
+        assertEquals(-11, calculator.subtract(-3, 8));
     }
 }
